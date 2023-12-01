@@ -1,0 +1,11 @@
+.mapContainer {
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.map {
+  box-shadow: 1px 1px 5px grey;
+  height: 70vh;
+  width: 70vw;
+}

@@ -1,0 +1,56 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.displayCoordinates {
+  display: flex;
+  justify-content: center;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  column-gap: 4vw;
+  margin-top: 7vh;
+  margin-bottom: 7vh;
+}
+
+input {
+  height: 4vh;
+  border: 2px solid #0a3259;
+  color: #0a3259;
+  background-color: #c4e7fb;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+button {
+  width: 9vw;
+  background-color: #3990f7;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  height: 5vh;
+  align-self: end;
+  bottom: 0;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+label {
+  align-self: start;
+  font-size: 12px;
+  margin-bottom: 0.5vh;
+  font-weight: bold;
+  color: #0a3259;
+}
+
+.inputBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}

@@ -1,0 +1,7 @@
+@import '~leaflet/dist/leaflet.css';
+
+.App {
+  text-align: center;
+  background-image: url('https://airsiders.com/wp-content/uploads/2022/07/bg-gradient-scaled.jpg');
+  margin: 0;
+}
