@@ -1,4 +1,4 @@
-# How it looks?
+# How does it look?
 <img width="1440" alt="Screenshot 2023-12-01 at 03 41 37" src="https://github.com/AntkiewiczGrzegorz1997/ChallengeAir/assets/40823614/4fd05dad-f855-4ca6-9315-fb59020be184">
 
 
