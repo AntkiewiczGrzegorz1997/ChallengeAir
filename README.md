@@ -5,7 +5,7 @@
 
 ## Getting Started
 
-To get start the app clone the repository, open terminal in the location of the cloned repository and:
+To start the app clone the repository, open terminal in the location of the cloned repository and:
 
 ```bash
 
