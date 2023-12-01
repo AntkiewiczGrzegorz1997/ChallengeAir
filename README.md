@@ -1,6 +1,6 @@
-# ChallengeAir
+# How it looks?
+<img width="1440" alt="Screenshot 2023-12-01 at 03 41 37" src="https://github.com/AntkiewiczGrzegorz1997/ChallengeAir/assets/40823614/4fd05dad-f855-4ca6-9315-fb59020be184">
 
-<img width="1439" alt="Screenshot 2023-12-01 at 03 40 53" src="https://github.com/AntkiewiczGrzegorz1997/ChallengeAir/assets/40823614/426cf0b9-6f3e-4581-80b6-986475efa438">
 
 
 ## Getting Started
