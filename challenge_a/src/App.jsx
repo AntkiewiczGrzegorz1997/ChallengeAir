@@ -14,13 +14,23 @@ function App() {
   const [geoJsonKey, setGeoJsonKey] = useState(0);
 
   const fetchData = async () => {
-    try {
-      const convertedData = await fetchGeoJsonData(coordinates);
-      setGeoJsonData(convertedData);
-      setMapCenter([coordinates.latitude, coordinates.longitude]);
-      setGeoJsonKey((prevKey) => prevKey + 1);
-    } catch (error) {
-      console.error('Error fetching data: ', error);
+    // data validation
+    if (
+      Math.abs(coordinates.latitude) > 90 ||
+      Math.abs(coordinates.longitude) > 180
+    ) {
+      alert(
+        'Please provide correct latitude and longitude: for latitude a value between [-90, 90] and for longitude value between [-180, 180]'
+      );
+    } else {
+      try {
+        const convertedData = await fetchGeoJsonData(coordinates);
+        setGeoJsonData(convertedData);
+        setMapCenter([coordinates.latitude, coordinates.longitude]);
+        setGeoJsonKey((prevKey) => prevKey + 1);
+      } catch (error) {
+        console.error('Error fetching data: ', error);
+      }
     }
   };
 
