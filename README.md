@@ -32,3 +32,6 @@ npm test
 
 ```
 
+## Thoughts 
+
+I really enjoyed working on this coding challenge. IProvided more time I would have definitely added more tests and improved the design. 
